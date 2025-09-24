@@ -1,7 +1,17 @@
-# SQL Server to PostgreSQL Schema Validator
+##### ✨ *Created by **Ashutosh Rai*** ✨  
+*sqlserver2postgres-schema-validator ensures smooth and accurate migration from SQL Server to PostgreSQL*  
 
-![Main UI Screenshot](PLACEHOLDER_FOR_UI_IMAGE)
-*Replace this line with your application's main UI screenshot.*
+![Made by Ashu](https://img.shields.io/badge/Made%20by-Ashu-blue?style=for-the-badge)
+![SQL Server → PostgreSQL](https://img.shields.io/badge/SQLServer-%20PostgreSQL-green?style=for-the-badge)
+![Schema Validation](https://img.shields.io/badge/Schema-Validation-orange?style=for-the-badge)
+
+
+# sqlserver2postgres-schema-validator
+
+This utility tool helps developers and DBAs verify and validate SQL Server database schemas against PostgreSQL schemas. It detects differences in tables, columns, data types, constraints, and indexes, providing a detailed report to ensure accurate and error-free migration. Ideal for anyone migrating databases from SQL Server to PostgreSQL.
+
+<img width="1115" height="738" alt="Screenshot 2025-09-24 191508" src="https://github.com/user-attachments/assets/7a73a13e-e152-43b6-bd33-f77c9ad4fe92" />
+
 
 ## Overview
 
@@ -25,8 +35,8 @@
 ### 1. Clone the Repository
 
 ```sh
-git clone https://github.com/<your-username>/sqlserver2postgres-schema-validator.git
-cd sqlserver2postgres-schema-validator/v2
+git clone https://github.com/aSHUrAI001/sqlserver2postgres-schema-validator.git
+cd DatabaseSchemaValidator
 ```
 
 ### 2. Install Requirements
@@ -109,6 +119,15 @@ python SchemaValidatorUI.py
 - Reports are saved as `.xlsx` files in the `SchemaValidationReports` folder.
 - Each report details schema differences, missing columns, mismatches, and more.
 - Use the UI to view or delete recent reports, or open the folder directly.
+  
+<img width="1147" height="790" alt="image" src="https://github.com/user-attachments/assets/9654b254-2507-4b42-8fed-f40d94a27606" />
+
+<img width="1127" height="54" alt="image" src="https://github.com/user-attachments/assets/3ab06d9d-fb58-4f0d-9c9d-5a0ba15fbe9b" />
+
+<img width="1881" height="64" alt="image" src="https://github.com/user-attachments/assets/04806b15-a99b-4cae-947f-cc7646c3c0ea" />
+
+
+
 
 ---
 
@@ -136,4 +155,3 @@ This project is licensed under the MIT License.
 
 ---
 
-**Replace the UI image placeholder above with your application's screenshot for best presentation.**
